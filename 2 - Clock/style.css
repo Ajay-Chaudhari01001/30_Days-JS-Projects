@@ -16,30 +16,29 @@ body{
     justify-content: center;
     align-items: center;
     background: orange;
-    color: aliceblue;
+    color: #fff;
+
 }
 
 #clock {
     font-size: 9rem;
-    width: 900px;
-    margin: 200px;
+    width: 60rem;
+    margin: 20rem;
     text-align: center;
     border: 2px solid green;
     border-radius: 20px;
     background: green;
-    padding: 2rem;
     
     box-shadow: 25px 25px 75px rgba(0,0,0,0.75),
     10px 10px 70px rgba(0,0,0,0.25),
     inset 5px 5px 10px rgba(0,0,0,0.5),
     inset 5px 5px 20px rgba(255,255,255,0.2),
     inset -5px -5px 15px rgba(0,0,0,0.75);
-    display: flex;
 
 }
 
-@media (max-width:380px) {
-    body{
-        flex-direction: column;
-    }
+@media (max-width:380px){
+   html{
+    font-size: 45%;
+   }
 }
