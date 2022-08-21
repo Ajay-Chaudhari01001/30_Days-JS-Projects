@@ -1,18 +1,29 @@
+setInterval(showTime, 1000);
+		function showTime() {
+			let time = new Date();
+			let hour = time.getHours();
+			let min = time.getMinutes();
+			let sec = time.getSeconds();
+			am_pm = "AM";
 
- let hr = document.querySelector('#hr');
- let mn = document.querySelector('#mn');
- let sc = document.querySelector('#sc');
+			if (hour > 12) {
+				hour -= 12;
+				am_pm = "PM";
+			}
+			if (hour == 0) {
+				hr = 12;
+				am_pm = "AM";
+			}
 
- setInterval( () => {
-    let day = new Date();
-    let hh = day.getHours() * 30;
-    let mm = day.getMinutes() * 6;
-    let ss = day.getSeconds() *6;
-   
-   
-   hr.style.transform = `rotateZ(${hh+(hh/12)}deg)`;
-   mn.style.transform = `rotateZ(${hh+(mm)}deg)`;
-   sc.style.transform = `rotateZ(${hh+(ss)}deg)`;
+			hour = hour < 10 ? "0" + hour : hour;
+			min = min < 10 ? "0" + min : min;
+			sec = sec < 10 ? "0" + sec : sec;
 
+			let currentTime = hour + ":"
+				+ min + ":" + sec + am_pm;
 
-});
+			document.getElementById("clock")
+				.innerHTML = currentTime;
+		}
+
+		showTime();
