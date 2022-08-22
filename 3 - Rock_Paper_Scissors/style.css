@@ -27,7 +27,9 @@ body{
     cursor: pointer;
     font-size: 1.6rem;
 }
-
+.btn:hover{
+  box-shadow: 0 0 1.5rem #01a3a4;
+}
 
  .score{
     color: white;
@@ -161,6 +163,9 @@ div.fadeIn{
   
 
   @media (max-width:380px){
+    .score{
+      margin-left: 8rem;
+    }
     .match{
         position: absolute;
         top: 50%;
@@ -169,14 +174,15 @@ div.fadeIn{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 6rem;
+        margin-left: 8rem;
         transition: opacity .5s ease .5s;
     }
     .options {
         flex-direction: column;
-        gap: 2rem;
+        gap: 2.5rem;
         margin-bottom: -30rem;
     }
+
 
     .intro h1{
         font-size: 3rem;
