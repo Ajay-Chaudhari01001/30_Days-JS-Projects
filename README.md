@@ -4,14 +4,11 @@
 In this repository contains 30 web projects using html5, css3 and javascript, it's help for student to learn javascript and project development.
 ## Deploy Projects
 
-
-```bash
-  All projects are host on free netlify.com hosting server
-```
+  All projects are host on free netlify.com hosting server.
 
 
 ## List of projects
-Click and Open the live apps on your browser
+Click and Open the live projects on your browser
 
  [1 Weather App](https://weatherapp2212.netlify.app)
 
