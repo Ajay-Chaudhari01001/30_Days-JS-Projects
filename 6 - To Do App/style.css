@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root{
+    --bg:#0984e3;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    background: var(--bg);
+}
+
+.wrapper{
+    margin: 12rem auto;
+    max-width: 35rem;
+    background-color: #fff;
+    width: 100%;
+    border-radius: .5rem;
+    padding: 2.5rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.30);
+}
+ 
+.wrapper header{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;letter-spacing: .2rem;
+    opacity: .50;
+}
+
+.wrapper .inputField{
+    display: flex;
+    height: 3.5rem;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.wrapper input{
+    width: 85%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: .3rem;
+    padding-left: .5rem;
+    outline: none;
+}
+
+.inputField button{
+    width: 4rem;
+    height: 100%;
+    border: none;
+    outline: none;
+    margin-left: .5rem;
+    background: var(--bg);
+    color: #fff;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+.inputField button i{
+    z-index: 9;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.inputField button:hover{
+    background: #74b9ff;
+}
+
+.wrapper .todoList{
+
+}
+
+.todoList li{
+    height: 3rem;
+    line-height: 3rem;
+    position: relative;
+    background: #f2f2f2;
+    border-radius: .3rem;
+    margin-bottom: .5rem;
+    padding: 0 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.todoList li span{
+    position: absolute;
+    right: 0;
+    background: #e74c3c;
+    width: 4rem;
+    text-align: center;
+    border-radius: 0 3px 3px 0;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.todoList li span:hover{
+    background:#ff7675;
+}
+
+.wrapper .footer{
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.footer button{
+    width: 7rem;
+    padding: .1rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: var(--bg);
+    color: #fff;
+    border-radius: .2rem;
+}
+
+.footer button:hover{
+    background: #74b9ff;
+}
+
+.footer span{
+    font-size: 1.4rem;
+    font-weight: 500;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    background-color: purple;
+    color: white;
+    padding: .5rem 2.5rem;
+    border-radius: .2rem;
+    margin-top: 8rem;
+    letter-spacing: .1rem;
+    width: 40%;
+    text-align: center;
+}
+
+textarea{
+    border-radius: none;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    margin: 1rem 0;
+    resize: none;
+    width: 40%;
+    height: 40%;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+    border-radius: .2rem;
+    color: purple;
+}
+
+p{
+    display: inline-block;
+    margin: 1rem;
+}
+.info{
+    font-size: 1.8rem;
+    text-align: left;
+    font-weight: 600;
+    color: purple;
+}
+
+p span{
+    font-size: 2rem;
+}
+
+
+
+
+
+/* // for mobiles */
+ 
+@media (max-width:380PX) {
+        html{
+            font-size: 55%;
+        }
+        h1{
+            width: 80%;
+        }
+
+        textarea{
+            width: 80%;
+            font-size: 1.9rem;
+        }
+        p{
+            font-size: 2.3rem;
+        }
+}
