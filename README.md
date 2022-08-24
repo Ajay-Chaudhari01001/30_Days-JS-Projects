@@ -17,3 +17,5 @@ Click and Open the live projects on your browser
  [3 Rock Paper Scissor](https://rockpaperscissor22.netlify.app)
 
  [4 Guessing Number](https://guesswithjs.netlify.app)
+
+ [5 Word Counter App](https://wordcounter22.netlify.app)
