@@ -10,5 +10,5 @@ Guessing number game randome number generate between 1 to 100
 # Congragulation you are win this game guessing by correct number
 <img width="301" alt="Screenshot 2022-08-23 070053" src="https://user-images.githubusercontent.com/55138445/187009219-37ffc156-398a-4602-93ca-dd98e8588dbd.png">
 
-# Ohh you are loose the correct number was 18
+# Ohh you are loose the correct number was 16
 <img width="305" alt="Screenshot 2022-08-23 070145" src="https://user-images.githubusercontent.com/55138445/187009220-667a7302-cfb6-4948-9406-58c1a75dba87.png">
