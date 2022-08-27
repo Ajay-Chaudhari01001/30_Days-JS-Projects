@@ -22,6 +22,6 @@ Click and Open the live projects on your browser
  
  [6 My Todo App](https://mytodoin.netlify.app)
 
-[7 Calculator(this file not a publish live some day's, due to errror]
+[7 Calculator ](this file not a publish live some day's, due to errror)
 
 [8 Password Generator](https://passgenerate22.netlify.app)
