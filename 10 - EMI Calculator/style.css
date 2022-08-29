@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    left: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --sky-blue:#43AFFC;
+    --sky-blue2:#00cec9;
+    --bg:#0a3d62;
+    --bg-hover:#3c6382;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--bg);
+}
+.container{
+    width: 400px;
+    background-color: var(--bg);
+    border-radius: .5rem;
+    overflow: hidden;
+    color: #fff;
+    padding: 2rem 2.1rem;
+    box-shadow: 25px 25px 75px rgba(0,0,0,0.75),
+    10px 10px 70px rgba(0,0,0,0.25),
+    inset 5px 5px 10px rgba(0,0,0,0.5),
+    inset 5px 5px 20px rgba(255,255,255,0.2),
+    inset -5px -5px 15px rgba(0,0,0,0.75);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    letter-spacing: .1rem;
+}
+.input_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+.input_container label{
+    font-size: 1.4rem;
+    font-weight: 450;
+}
+.input_container input{
+    border: none;
+    outline: none;
+    width: 40%;
+    padding: .3rem 1rem;
+    border-radius: .5rem;
+}
+.input_container input:focus{
+     border: 2px solid var(--bg-hover);
+}
+.submit_container{
+    display: flex;
+    justify-content: center;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+}
+#calculate{
+    font-weight: 700;
+    color: var(--bg);
+    cursor: pointer;
+    letter-spacing: .1rem;
+    margin-top: 1.5rem;
+    transition: .5s ease;
+}
+#calculate:hover{
+        background-color: var(--bg-hover);
+        color: #fff;
+}
+
+#loanDuration{
+    width: 6rem;
+    margin-left: 6rem;
+    
+}   
+.radio_container{
+    display: flex;
+    margin-left: 0;
+}
+.radio_container input[type="radio"]{
+    display: none;
+}
+.radio_container label{
+    background-color: #fff;
+    color: var(--bg);
+    border-right: 2px solid var(--bg);
+    padding: .1rem .5rem;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.radio_container label:hover{
+    background-color: var(--bg-hover);
+    color: #fff;
+}
+.radio_container input[type="radio"]:checked+label{
+    background-color: var(--bg-hover);
+    color: #fff;
+}
+
+.output{
+    margin-top: 2rem;
+}
+.output p{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    border: 1px solid #fff;
+    padding: .5rem;
+    margin-bottom: .5rem;
+    border-radius: .5rem;
+}
+.output p span{
+    float: right;
+    margin-right: 1rem;
+    border-radius: .5rem;
+}
+
+@media (max-width: 400px){
+
+    .container{
+        margin-top: -5rem;
+    }
+    html{
+        font-size: 55%;
+    }
+    #loanDuration{
+        margin-left: 12rem;
+        
+    } 
+}

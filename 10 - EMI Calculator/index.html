@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>EMI Calculator</h1>
+        <div class="input_container">
+            <label for="amount">Loan Amount(rs.)</label>
+            <input type="number" id="amount" required>
+        </div>
+        <div class="input_container">
+            <label for="intrest">Intrest(%)</label>
+            <input type="number" id="intrest" required>
+        </div>
+        <div class="input_container loan_tenure_container">
+            <label for="loanDuration">Loan Duration</label>
+			<input type="number" id="loanDuration" required>
+			<div class="radio_container">
+				<input type="radio" name="btn" id="year"><label for="year">Year</label>
+				<input type="radio" name="btn" id="month"><label for="month">Month</label>
+			</div>
+        </div>
+		<div class="submit_container">
+			<input type="submit" value="SUBMIT" id="calculate">
+		</div>
+
+		<div class="output">
+			<p>Loan EMI<span id="emi"></span></p>
+			<p>Total Intrest Payble<span id="totalIntrest"></span></p>
+			<p>Total Payment(Principal + Intrest)<span id="totalPayment"></span></p>
+		</div>
+    </div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
