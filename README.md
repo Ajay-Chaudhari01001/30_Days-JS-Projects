@@ -27,3 +27,5 @@ Click and Open the live projects on your browser
 [8 Password Generator](https://passgenerate22.netlify.app)
 
 [9 Github Profile Finde ](https://githubprofilefinde.netlify.app)
+
+[10 Github Profile Finde ](https://emicalculator22.netlify.app/)
