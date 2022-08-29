@@ -37,5 +37,6 @@ function calculateEmi() {
 		document.querySelector("#emi").innerText = "Rs " + Math.round(EMI);
 		document.querySelector("#totalIntrest").innerText = "Rs " + Math.round(totalInterest);
 		document.querySelector("#totalPayment").innerText = "Rs " + Math.round(totalPayment);
+		
 	} 
 }
