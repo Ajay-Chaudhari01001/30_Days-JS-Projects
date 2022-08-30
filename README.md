@@ -28,4 +28,6 @@ Click and Open the live projects on your browser
 
 [9 Github Profile Finde ](https://githubprofilefinde.netlify.app)
 
-[10 EMI Calculator ](https://emicalculator22.netlify.app/)
+[10 EMI Calculator ](https://emicalculator22.netlify.app)
+
+[11 Language Translator ](https://languagetranslate22.netlify.app)
