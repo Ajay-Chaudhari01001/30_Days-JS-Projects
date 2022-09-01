@@ -32,6 +32,6 @@ Click and Open the live projects on your browser
 
 [11 Language Translator ](https://languagetranslate22.netlify.app)
 
-[12 RGB Color Generator ](https://rgbcolorgenerate22.netlify.app)
+[12 RGB Color Generator ](https://rgbcolorgenerator22.netlify.app)
 
 [11 Digtial StopWatch ](https://stopwatch22.netlify.app)
