@@ -39,3 +39,5 @@ Click and Open the live projects on your browser
 [14 Country Information ](https://getcountry.netlify.app)
 
 [15 Tic Tac Toe ](https://tictactoegame22.netlify.app)
+
+[16 Quotes Generator ](https://motivationquotes22.netlify.app)
