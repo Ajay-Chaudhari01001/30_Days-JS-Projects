@@ -41,3 +41,5 @@ Click and Open the live projects on your browser
 [15 Tic Tac Toe ](https://tictactoegame22.netlify.app)
 
 [16 Quotes Generator ](https://motivationquotes22.netlify.app)
+
+[17 Gradient Generator ](https://gradientgenerator22.netlify.app)
