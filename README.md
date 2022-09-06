@@ -43,3 +43,5 @@ Click and Open the live projects on your browser
 [16 Quotes Generator ](https://motivationquotes22.netlify.app)
 
 [17 Gradient Generator ](https://gradientgenerator22.netlify.app)
+
+[18 Alarm Clock ](https://setalarm.netlify.app)
