@@ -47,3 +47,5 @@ Click and Open the live projects on your browser
 [18 Alarm Clock ](https://setalarm.netlify.app)
 
 [19 Card Matching Game ](https://cardmatching22.netlify.app)
+
+[19 QR Code Generator ](https://qrcode2212.netlify.app)
