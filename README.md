@@ -49,3 +49,5 @@ Click and Open the live projects on your browser
 [19 Card Matching Game ](https://cardmatching22.netlify.app)
 
 [20 QR Code Generator ](https://qrcode2212.netlify.app)
+
+[21 Quiz App ](https://quizappinjs.netlify.app)
