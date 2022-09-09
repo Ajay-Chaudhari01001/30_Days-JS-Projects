@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body .heading{
+    font-size: 4rem;
+    text-align: center;
+}
+.main-div {
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(209, 176, 239);
+}
+
+.inner-div {
+    width: 40vw;
+    background: #fff;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, .2);
+}
+
+.inner-div h2 {
+    font-size: 2.3rem;
+    margin: 0 0 1.7rem 0;
+    font-weight: 500;
+}
+
+.inner-div li {
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+}
+
+input {
+    cursor: pointer;
+}
+
+#submit,
+.btn {
+    padding: .5rem 2.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(143, 22, 143);
+    color: #fff;
+    display: block;
+    margin: auto;
+    margin-top: 1.6rem;
+}
+
+#submit:hover {
+    background-color: rgb(88, 42, 88);
+}
+
+#showScore {
+    background-color: #ccc;
+    margin-top: 1.8rem;
+    padding: 2rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, .2);
+}
+
+#showScore h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.scoreArea {
+    display: none;
+}
+
+@media (max-width:600px){
+    .inner-div {
+        width: 90vw;
+    }
+    .inner-div h2{
+        font-size: 2rem;
+    }
+}
+@media (max-width:380px){
+    .inner-div {
+        width: 95vw;
+    }
+    html{
+        font-size: 45%;
+    }
+}
