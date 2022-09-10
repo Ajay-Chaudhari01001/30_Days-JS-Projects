@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(140, 140, 253);
+}
+label{
+    font-size: .9rem;
+    color: #999;
+}
+.wrapper{
+    background: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.25);
+}
+.wrapper form{
+    margin: 1.5rem 0;
+}
+.wrapper .row{
+    display: flex;
+    flex-direction: column;
+}
+form :where(textarea, select, button){
+    border: none;
+    outline: none;
+    border-radius: .2rem;
+}
+form .row textarea{
+    resize: none;
+    height: 100px;
+    padding: .5rem .8rem;
+    border: 1px solid #999;
+}
+form .row .outer{
+    border: 1px solid #999;
+    border-radius: .2rem;
+    color: #474747;
+    padding: .5rem;
+}
+form .row .outer select{
+    width: 100%;
+    height: 100%;
+}
+form .row .select-voice{
+    margin-top: .5rem;
+}
+
+form button{
+    margin-top: 1rem;
+    padding: .5rem;
+    font-weight: 500;
+    cursor: pointer;
+    background: rgb(140, 140, 253);
+    color: #fff;
+    font-size: 1.1rem;
+}
+@media (max-width:380px){
+    .wrapper{
+        width:370px;
+    }
+}
