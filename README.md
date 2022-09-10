@@ -52,4 +52,4 @@ Click and Open the live projects on your browser
 
 [21 Quiz App ](https://quizappinjs.netlify.app)
 
-[22 Quiz App ](https://likhoaursuno.netlify.app)
+[22 Text To Speech Convertor ](https://likhoaursuno.netlify.app)
