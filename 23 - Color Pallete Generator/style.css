@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contentBox {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.contentBox .colorBox {
+    width: 15%;
+    height: 80%;
+    box-shadow: 0 10px 25px -10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentBox .colorBox .color {
+    width: 100%;
+    height: 80%;
+    background-color: #4392f3;;
+    border-radius: 10px 10px 0 0;
+}
+
+.contentBox .colorBox .code {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.actions {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions p {
+    box-shadow: 0 10 25px -10px rgba(0, 0, 0, 0.3);
+    padding: 12px 60px;
+    background-color: #4392f3;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 25px;
+}
+
+.actions button {
+    box-shadow: 0 10 25px -10px rgba(0, 0, 0, 0.3);
+    padding: 12px 60px;
+    background-color: #4392f3;;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 25px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.actions button:hover {
+    background-color: #65a8f9;;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+@media (max-width:650px){
+    .contentBox {
+        margin-top: 1rem;
+        width: 100%;
+        height: 80%;
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contentBox .colorBox{
+        width: 90%;
+        height: 50%;
+    }
+    .contentBox .code{
+        font-size: 1.2rem;
+        color: #474747;
+    }
+    .actions{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .actions p{
+         width: 100%;
+         border-radius:0;
+         margin-top: 1rem;
+    }
+    .contentBox .colorBox .code {
+        width: 100%;
+        text-align: center;
+        margin: auto 0;
+        padding: .8rem 0;
+    }
+}
