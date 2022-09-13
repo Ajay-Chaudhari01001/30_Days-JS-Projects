@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="currency.png">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header>Currency Converter</header>
+        <form action="#">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="1">
+            </div>
+            <div class="drop-list">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-box">
+                        <img src="https://countryflagsapi.com/png/usa" alt="">
+                        <select>
+                                <!-- getting all countries code in courntry.js file through dynamically -->
+                        </select>
+                    </div>
+                </div>
+                <div class="icon"><i class="fa fa-exchange-alt"></i></div>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-box">
+                        <img src="https://countryflagsapi.com/png/india" alt="">
+                        <select>
+                            <!-- getting all countries code in courntry.js file through dynamically -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="exchange-rate"></div>
+            <button>Check Exchange Rate</button>
+        </form>
+
+    </div>
+
+    <section class="footer">
+        <p>Develope by @Ajay Chaudhari</p>
+    </section>
+<script src="countries.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

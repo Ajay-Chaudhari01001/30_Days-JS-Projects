@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #67a;
+}
+.wrapper{
+    width:350px;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: .5rem;
+}
+.wrapper header{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper form{
+    margin: 3rem 0 2rem 0;
+}
+form :where(input, select, button){
+    width: 100%;
+    outline: none;
+    border: none;
+}
+form p{
+    font-size: 1.5rem;
+    color: #999;
+}
+form input{
+    height: 4rem;
+    border: 1px solid #999;
+    padding: 0 1rem;
+    border-radius: .5rem;
+}
+form input:focus{
+    border: 2px solid #67a;
+}
+form img{
+    width: 70px;
+}
+form .drop-list{
+    display: flex;
+    margin-top: 1.7rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.drop-list .select-box{
+    display: flex;
+    width: 120px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #999;
+    padding: 0 1rem;
+}
+.select-box select::-webkit-scrollbar{
+    width: 9px;
+}
+.select-box select::-webkit-scrollbar-track{
+    background: #fff;
+}
+.select-box select::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 8px;
+    border-right: 2px solid #fff;
+}
+.select-box img{
+    max-width: 30px;
+}
+.drop-list .icon{
+    cursor: pointer;
+    font-size: 1.9rem;
+    margin-top: 2.2rem;
+}
+form .exchange-rate{
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+form button{
+    padding: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    background: #67a;
+    color: #fff;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+form button:hover{
+    background: rgb(135, 173, 247);
+}
+.footer{
+    position: absolute;
+    bottom: 12px;
+}
+.footer p{
+    font-size: 1.5rem;
+    color: white;
+    opacity: .70;
+}
