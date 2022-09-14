@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .container {
+    background-color: #ffffff;
+    width: 80vmin;
+    max-width: 37.5em;
+    padding: 3em 2.5em;
+    position: absolute;
+    border-radius: 0.62em;
+    box-shadow: 0 1.2em 2.5em rgba(0, 21, 44, 0.18);
+  }
+  h2 {
+    font-size: 1.8em;
+    color: orange;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 1.3em;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.8em;
+  }
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+    color: #050121;
+  }
+  input {
+    position: relative;
+    font-size: 1.1em;
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    border: 1.5px solid #43405c;
+    color: #43405c;
+    outline: none;
+  }
+  input:focus {
+    border-color: rgb(234, 170, 51);
+  }
+  #error-msg {
+    text-align: center;
+    margin-top: 1.25em;
+    color: #ff4362;
+  }
+  @media (max-width:600px){
+    .wrapper{
+        flex-direction: column;
+    }
+  }
