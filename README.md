@@ -59,3 +59,5 @@ Click and Open the live projects on your browser
 [24 File Downloader ](https://filedownloaderbyajay.netlify.app)
 
 [25 Currency Converter ](https://checkcurrencyrate.netlify.app)
+
+[26 Decimal - Binary Converter ](https://decimaltobinaryconverter.netlify.app)
