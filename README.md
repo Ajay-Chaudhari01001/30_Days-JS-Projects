@@ -61,3 +61,7 @@ Click and Open the live projects on your browser
 [25 Currency Converter ](https://checkcurrencyrate.netlify.app)
 
 [26 Decimal - Binary Converter ](https://decimaltobinaryconverter.netlify.app)
+
+[27 Coin Toss Game ](https://cointoss.netlify.app)
+
+[28 Key Press Checker ](https://keypresschecker.netlify.app)
