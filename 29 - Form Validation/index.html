@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form autocomplete="off">
+        <h4>Create Your Account</h4>
+        <div class="input-section">
+          <label>First Name <span class="required-color">*</span></label>
+          <input
+            type="text"
+            placeholder="Enter First Name"
+            id="first-name-input"
+            required
+          />
+          <span id="first-name-error" class="hide required-color error-message"
+            >Invalid Input</span
+          >
+          <span id="empty-first-name" class="hide required-color error-message"
+            >First Name Cannot Be Empty</span
+          >
+        </div>
+        <div class="input-section">
+          <label>Last Name <span class="required-color">*</span></label>
+          <input
+            type="text "
+            placeholder="Enter Last Name"
+            id="last-name-input"
+            required
+          />
+          <span id="last-name-error" class="hide required-color error-message"
+            >Invalid Input</span
+          >
+          <span id="empty-last-name" class="hide required-color error-message">
+            Last Name Cannot Be Empty
+          </span>
+        </div>
+
+        <div class="input-section">
+          <label>Email <span class="required-color">*</span></label>
+          <input type="email" placeholder="Enter Email" id="email" required />
+          <span id="email-error" class="hide required-color error-message"
+            >Invalid Email</span
+          >
+          <span id="empty-email" class="hide required-color error-message"
+            >Email Cannot Be Empty</span
+          >
+        </div>
+
+        <div class="input-section">
+          <label>Phone <span class="required-color">*</span></label>
+          <input
+            type="number"
+            placeholder="Enter Phone Number"
+            id="phone"
+            required
+          />
+          <span id="phone-error" class="hide required-color error-message"
+            >Phone Number Should Have 10 Digits</span
+          >
+          <span id="empty-phone" class="hide required-color error-message">
+            Phone cannot be empty
+          </span>
+        </div>
+
+        <div class="input-section">
+          <label>Password <span class="required-color">*</span></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            id="password"
+            required
+          />
+          <span id="password-error" class="hide required-color error-message">
+            Passwords Should Have Letter, Special symbols, Numbers And Length >=
+            8
+          </span>
+          <span id="empty-password" class="hide required-color error-message">
+            Password Cannot Be Empty
+          </span>
+        </div>
+
+        <div class="input-section">
+          <label>Confirm Password <span class="required-color">*</span></label>
+          <input
+            type="password"
+            id="verify-password"
+            placeholder="Confirm Password"
+            required
+          />
+          <span
+            id="verify-password-error"
+            class="hide required-color error-message"
+            >Should Be Same As Previous Password</span
+          >
+          <span
+            id="empty-verify-password"
+            class="hide required-color error-message"
+            >Password Cannot Be Empty</span
+          >
+        </div>
+        <button id="submit-button">Signup</button>
+      </form>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
