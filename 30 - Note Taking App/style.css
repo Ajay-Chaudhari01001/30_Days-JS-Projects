@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+html{
+    font-size: 62.5%;
+
+}
+
+.heading{
+    background-color: orange;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.add-btn{
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    padding: .8rem 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: cadetblue;
+    color: white;
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem rgb(222, 222, 222);
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: green;
+}
+
+.operations{
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edit{
+    background-color: rgb(94, 229, 94);
+    color: white;
+    border: none;
+    padding: .3rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: .3rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.save{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: .3rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.save:hover{
+    background-color: #fff;
+    color: green;
+    box-shadow: 0 0 .5rem rgb(222, 222, 222);
+}
+.edit:hover{
+    background-color: #fff;
+    color: green;
+    box-shadow: 0 0 .5rem rgb(222, 222, 222);
+}
+.delete:hover{
+    background-color: #fff;
+    color: green;
+    box-shadow: 0 0 .5rem rgb(222, 222, 222);
+}
+
+.note{
+    display: inline-block;
+    background-color: white;
+    width: 40vh;
+    height: 30vh;
+    margin: 1rem 1.5rem;
+    overflow-y: scroll;
+}
+
+textarea{
+     outline: none;
+     font-family: 'Courier New', Courier, monospace;
+     border: none;
+     height: 100%;
+     width: 100%;
+     padding: 2rem;
+     resize: none;
+}
+
+.note.main{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hidden{
+    display: none;
+}
