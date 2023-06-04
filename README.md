@@ -76,3 +76,15 @@ The goal of the 30-Day JavaScript project was to enhance my coding skills and de
 
 ## Process:
 Over the course of 30 days, I dedicated focused time each day to work on a new JavaScript project. I followed a systematic approach to ensure consistent progress and effective learning:
+
+## Key Features:
+
+1) During the 30-Day JavaScript project, I covered a wide range of JavaScript features and concepts. Some notable features and projects I completed include:
+
+2) Interactive Forms: Developed a form validation system using JavaScript to ensure accurate user input and enhance user experience.
+
+3) DOM Manipulation: Created a dynamic web page that utilized JavaScript to dynamically update content, manipulate HTML elements, and respond to user interactions.
+
+4) Asynchronous Programming: Implemented asynchronous functions and used Promises and async/await to handle asynchronous tasks efficiently, resulting in faster and more responsive web applications.
+
+5) API Integration: Integrated external APIs into JavaScript projects to fetch and display real-time data, such as weather information or social media feeds.
