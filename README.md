@@ -8,7 +8,7 @@ In this repository contains 30 web projects using html5, css3 and javascript, it
 
 
 ## List of projects
-Click and Open the live projects on your browser:
+Click and Open the live projects on your browser :
 
  [1 Weather App](https://weatherapp2212.netlify.app)
 
