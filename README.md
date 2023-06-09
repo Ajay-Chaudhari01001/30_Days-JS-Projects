@@ -87,4 +87,4 @@ Over the course of 30 days, I dedicated focused time each day to work on a new J
 
 4) Asynchronous Programming: Implemented asynchronous functions and used Promises and async/await to handle asynchronous tasks efficiently, resulting in faster and more responsive web applications.
 
-5) API Integration: Integrated external APIs into JavaScript projects to fetch and display real-time data, such as weather information or social media feeds.
+5) API Integration: Integrated external APIs into JavaScript projects to fetch and display real-time data, such as weather information or Country wise data.
